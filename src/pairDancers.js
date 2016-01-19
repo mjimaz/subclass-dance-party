@@ -12,3 +12,10 @@ var pairDancers = function(){
   }
   
 };
+
+var dragDancer = function(){
+  console.log('drag:', this);
+      var top = event.clientY;
+      var left = event.clientX;
+      $(this).setPosition(top, left);
+};

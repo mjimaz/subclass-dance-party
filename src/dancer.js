@@ -1,5 +1,5 @@
 var makeDancer = function(top, left, timeBetweenSteps) {
-  this.$node = $('<span class="dancer"></span>');
+  this.$node = $('<span class="dancer" ></span>');
   this.timeBetweenSteps = timeBetweenSteps;
   this.setPosition(top, left);
   this.step();
@@ -17,4 +17,6 @@ makeDancer.prototype.setPosition = function(top, left) {
   this.$node.css(this.styleSettings);
 };
 
-
+// $(function() {
+//     $( "#dancer" ).draggable();
+//   });
