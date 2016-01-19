@@ -25,5 +25,11 @@ body, a:link, a:visited, a:active{
   border:10px;
   border-radius:10px;
   position:absolute;
-  size: 200px;
+}
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 }

@@ -1,7 +1,7 @@
 var makeDancer = function(top, left, timeBetweenSteps) {
   // this.$node = $('<span class="dancer"></span>');
   if(window.dancerType === 'panda'){
-    this.$node = $('<img class="dancer" src="./images/dancing-panda.gif">');
+    this.$node = $('<img class="dancer" src="./images/dancing-panda.gif" onclick="rotate(this);">');
   }else{
     this.$node = $('<img class="dancer" src="./images/dancing-cat.gif">');
   }
@@ -21,3 +21,5 @@ makeDancer.prototype.setPosition = function(top, left) {
   };
   this.$node.css(this.styleSettings);
 };
+
+
