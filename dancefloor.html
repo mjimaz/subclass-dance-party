@@ -4,15 +4,19 @@
     <title>Object Dance Party</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <script src="lib/jquery.js"></script>
-    <script src="src/methods.js"></script>
     <script src="src/dancer.js"></script>
+    <script src="src/blinkyCatDancer.js"></script>
+    <script src="src/blinkyPandaDancer.js"></script>
     <script src="src/blinkyDancer.js"></script>
+    <script src="src/lineupDancers.js"></script>
   </head>
   <body>
     <div class="topbar">
       <span class="title">object dance party</span>
-      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeBlinkyDancer" onclick="javascript: window.dancerType = 'panda';">add a blinky panda dancer</a>
-      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeBlinkyDancer" onclick="javascript: window.dancerType = 'cat';"}>add a blinky cat dancer</a>  
+      <!--<a href="#" class="addDancerButton" data-dancer-maker-function-name="makeBlinkyDancer">add a blinky dancer</a>-->
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeBlinkyPandaDancer">add a blinky panda dancer</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeBlinkyCatDancer"}>add a blinky cat dancer</a> 
+      <a href="#" class="lineupDancers" onclick="javascript:lineupDancers()"}>line up dancers</a>  
     </div>
     <script src="src/init.js"></script>
   </body>

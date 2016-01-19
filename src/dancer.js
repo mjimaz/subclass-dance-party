@@ -1,10 +1,5 @@
 var makeDancer = function(top, left, timeBetweenSteps) {
-  // this.$node = $('<span class="dancer"></span>');
-  if(window.dancerType === 'panda'){
-    this.$node = $('<img class="dancer" src="./images/dancing-panda.gif" onclick="rotate(this);">');
-  }else{
-    this.$node = $('<img class="dancer" src="./images/dancing-cat.gif">');
-  }
+  this.$node = $('<span class="dancer"></span>');
   this.timeBetweenSteps = timeBetweenSteps;
   this.setPosition(top, left);
   this.step();
