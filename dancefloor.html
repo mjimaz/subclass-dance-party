@@ -8,22 +8,15 @@
     <script src="src/blinkyCatDancer.js"></script>
     <script src="src/blinkyPandaDancer.js"></script>
     <script src="src/blinkyDancer.js"></script>
-    <script src="src/lineupDancers.js"></script>
-    <script src="src/pairDancers.js">
-$(function() {
-$( "#dancer" ).draggable();
-   });
-
-    </script>
+    <script src="src/methods.js"></script>
   </head>
   <body>
     <div class="topbar">
       <span class="title">object dance party</span>
-      <!--<a href="#" class="addDancerButton" data-dancer-maker-function-name="makeBlinkyDancer">add a blinky dancer</a>-->
       <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeBlinkyPandaDancer">add a blinky panda dancer</a>
       <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeBlinkyCatDancer"}>add a blinky cat dancer</a> 
-      <a href="#" class="lineupDancers" onclick="javascript:lineupDancers()"}>line up dancers</a> 
-      <a href="#" class="lineupDancers" onclick="javascript:pairDancers()"}>pair up dancers</a>  
+      <a href="#" class="lineupDancers" onclick="lineupDancers()"}>line up dancers</a> 
+      <a href="#" class="lineupDancers" onclick="pairDancers()"}>pair up dancers</a>  
     </div>
     <script src="src/init.js"></script>
   </body>

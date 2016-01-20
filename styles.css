@@ -33,9 +33,3 @@ body, a:link, a:visited, a:active{
 .cat{
   content: url("images/dancing-cat.gif");
 }
-
-.dot {
-  border:10px solid red;
-  border-radius:10px;
-  position:absolute;
-}

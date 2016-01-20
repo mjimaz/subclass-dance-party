@@ -7,7 +7,6 @@ makeBlinkyCatDancer.prototype= Object.create(makeDancer.prototype);
   
 makeBlinkyCatDancer.prototype.step = function() {
   makeDancer.prototype.step.call(this);
-  //this.$node.toggle();
   this.$node.click(
     function(){
       $(this).animate({
